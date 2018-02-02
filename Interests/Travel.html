@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+       
    <meta charset="utf-8"/>
     <title>Travel</title>
-    <link rel = "stylesheet" href = "mystylesheet.css" type = "text/css" />
-    <link rel = "stylesheet" href = "int_pages.css" type = "text/css" />
+    <link rel = "stylesheet" href = "MyStyleSheet.css" type = "text/css" />
+    <link rel = "stylesheet" href = "Int_Pages.css" type = "text/css" />
     
     <!--Adding Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -19,21 +20,26 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
         
         <script type = "text/javascript">
-            $.(document).ready(function() {
-	        $.('#pagepiling').pagepiling();
+            $(document).ready(function() {
+	        $('#pagepiling').pagepiling({
                });
+            });
         </script>
         </head>
+        
+        
     <body>
-      
+      <h1>Travel</h1>
         <div id="pagepiling">
-    	    <div class="section" id="section1">Most Travelled to:Zakopane </div>
-        	<div class="section" id="section2">Want to Visit:Reykjavik </div>
+    	    <div class="section" id="section1">Most Travelled to : Zakopane in Lesser Poland</div>
+    	    <br>
+        	<div class="section" id="section2">Want to Visit : Reykjavik, The Capital of Iceland </div>
+        	<br>
       	    <div class="section" id="section3">
-      	        Settle in: Ireland
+      	        Where do I want to Settle in: Suburbia of Cork, Ireland
       	        <br/>
-      	        <a href="../homepage.html" class="btn btn-success">Home</a>
+      	        <a href="../HomePage.html" class="btn btn-success">Home</a>
       	    </div>
-      	</div>    
-
+     </div>
+</body>
 </html>
