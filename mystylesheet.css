@@ -11,10 +11,6 @@ html,body{
 
 
 
-body {
-background-image: url("")
-}
-
 ul li a{
     text-decoration:none;
     color:#e0e2e1;
@@ -25,7 +21,9 @@ ul{
     height:40%;
     width:100%;
     background:#2a4532;
-    line-height:3.5
+    line-height:3.5;
+    left:50%;
+    right:50%
     
 }
 
@@ -35,8 +33,11 @@ ul li{
     margin:10px;
     position:relative;
     margin-left:120px;
+    margin-right: 120px
     transform:translate(20%,30%);
     font-size:22px
+  
+    
     
 }
 
@@ -53,5 +54,17 @@ footer{
     top:100%;
     width:100%;
     height:10%;
-    background:red;
+    background:#2a4532;
+    color:white;
+    line-height: 3.5
+}
+
+h1{
+    color:#731f24;
+    
+    
+}
+img{
+    border-radius:500px;
+    align:center
 }

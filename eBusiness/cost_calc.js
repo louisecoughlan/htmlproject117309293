@@ -18,7 +18,8 @@ function display(parm1){
 }
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
-    function disabledbtnProceed() {
-        $('#btnProceed').prop('disabled', true)
-    }
 }
+
+function disabledbtnProceed() {
+        $('#btnProceed').prop('disabled', true);
+    }
