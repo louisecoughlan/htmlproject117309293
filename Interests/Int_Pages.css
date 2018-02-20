@@ -1,17 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
 #section1{
-    background-color: rgb(238, 0, 90);
+    background: url("https://pbs.twimg.com/media/DWfJOS1XUAAmj2S.jpg") no-repeat center fixed;
+    color:black;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background: url("https://pbs.twimg.com/media/DWfomiMW4AI2yfE.jpg") no-repeat center fixed;
+    color:black;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background: url("https://ton.twitter.com/1.1/ton/data/dm/965963079417843716/965963065874403328/iJFlRwuY.jpg:large") no-repeat center fixed
+ 
 }
+
 
 .section{
     text-align: center;
     color: white;
 }
 
+ul li a{
+    text-decoration:none;
+    color:#e0e2e1;
+}
+
+ul{
+    height:40%;
+    width:100%;
+    background:#2a4532;
+    line-height:3.5;
+    left:50%;
+    right:50%;
+    opacity: .9;
+}
+
+ul li{
+    list-style:none;
+    display:inline;
+    margin:10px;
+    position:relative;
+    margin-left:235px;
+    margin-right: 120px;
+    transform:translate(40%,30%);
+    font-size:22px;
+}
+
+ul li a:hover{
+    color:white;
+    background:#612424;
+    padding:2%;
+    border-radius:10px
+}
