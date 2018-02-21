@@ -73,5 +73,18 @@ ul li a:hover{
     color:white;
     background:#612424;
     padding:2%;
-    border-radius:10px
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.copyright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.img2{
+    top:.75%;
+    left:.5%;
+    height:8.5%;
+    width:4.5%;
 }

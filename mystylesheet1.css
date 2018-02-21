@@ -1,38 +1,19 @@
-
-        body{
-    height:100%;
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:70%;
     width:100%;
     background: url("https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg")no-repeat center fixed;
     background-size:cover;
 }
-h1{
-    color:#612424;
-    font-family:georgia;
-    font-size:40px;
-}
-
-p{
-    font-size:25px;
-    color:#0e0549;
-    
-}
- footer{
-    position:absolute;
-    top:90%;
-    width:100%;
-    height:10%;
-    background:#2a4532;
-    opacity:.9;
-}
-
-footer p{
-    color:white;
-    font-size:20px;
-}
-
 .container{
     position:absolute;
     left:35%;
+    top:35%;
+    font-size:40px;
+    color:#612424;
 }
 
 .btn{
@@ -80,7 +61,7 @@ ul{
     line-height:3.5;
     left:50%;
     right:50%;
-    opacity: .9;
+    opacity:.9;
 }
 
 ul li{
@@ -88,8 +69,8 @@ ul li{
     display:inline;
     margin:10px;
     position:relative;
-    margin-left:130px;
-    margin-right: 120px;
+    margin-left:100px;
+    margin-right:130px;
     transform:translate(40%,30%);
     font-size:22px;
 }
@@ -98,5 +79,30 @@ ul li a:hover{
     color:white;
     background:#612424;
     padding:2%;
-    border-radius:10px
+    border-radius:10px;
+    cursor: pointer;
+}
+footer{
+    position:absolute;
+    top:90%;
+    width:100%;
+    height:10%;
+    background:#2a4532;
+    color:white;
+    line-height:2px;
+    opacity:.9;
+    font-size:30px;
+
+}
+
+.copyright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.img2{
+    top:.75%;
+    left:.5%;
+    height:8.5%;
+    width:4.5%;
 }
