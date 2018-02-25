@@ -5,18 +5,34 @@
 
 #section1{
     
-    background: url("https://pbs.twimg.com/media/DWkHDkuWkAA-uO0.jpg") no-repeat center fixed;
+    background: url("https://ton.twitter.com/1.1/ton/data/dm/967868370329788424/967868361219674113/k9GJlJbP.jpg:large") no-repeat center fixed;
     color:black;
 }
 
 #section2{
-    background: url("https://pbs.twimg.com/media/DWkHRpxXcAIV1iY.jpg") no-repeat center fixed;
+    background: url("https://ton.twitter.com/1.1/ton/data/dm/967868904717651973/967868895775346689/IK4r2Zcm.jpg:large") no-repeat center fixed;
     color:black;
 }
 
 #section3{
-    background: url("https://pbs.twimg.com/media/DWkHjl1WsAAyruS.jpg") no-repeat center fixed
+    background: url("https://ton.twitter.com/1.1/ton/data/dm/967870641729933317/967870633295122432/Q2i6kPCm.jpg:large") no-repeat center fixed;
+    
 }
+#section4{
+    
+    background: url("http://www.osahub.com/img/course/pages/clouds.png") no-repeat center fixed;
+    color:black;
+}
+
+#section5{
+    background: url("http://www.osahub.com/img/course/pages/clouds.png") no-repeat center fixed;
+    color:black;
+}
+
+#section6{
+    background: url("http://www.osahub.com/img/course/pages/clouds.png") no-repeat center fixed;
+}
+
 
 
 .section{
@@ -24,9 +40,16 @@
     color: white;
 }
 
+html,body{
+    height:70%;
+    width:100%;
+    background: url("https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg")no-repeat center fixed;
+    background-size:cover;
+}
 ul li a{
     text-decoration:none;
     color:#e0e2e1;
+    font-family: times;
 }
 
 ul{
@@ -34,20 +57,20 @@ ul{
     width:100%;
     background:#2a4532;
     line-height:3.5;
-    left:50%;
-    right:50%;
-    opacity: .7;
+    text-decoration:none;
+    font-family:times;
 }
 
 ul li{
     list-style:none;
     display:inline;
-    margin:10px;
     position:relative;
-    margin-left:110px;
-    margin-right: 120px;
+    margin-left:100px;
+    margin-right:150px;
     transform:translate(40%,30%);
     font-size:22px;
+    text-decoration:none;
+    font-family: times;
 }
 
 ul li a:hover{
@@ -55,7 +78,9 @@ ul li a:hover{
     background:#612424;
     padding:2%;
     border-radius:10px;
-    cursor: pointer
+    cursor:pointer;
+    text-decoration:none;
+    font-family:times;
 }
 
 footer{
@@ -65,21 +90,13 @@ footer{
     height:10%;
     background:#2a4532;
     color:white;
-    line-height:5px;
+    line-height:2px;
     opacity:.9;
-}
-footer{
-    position:absolute;
-    top:90%;
-    width:100%;
-    height:10%;
-    background:#2a4532;
-    color:white;
-    line-height: 5px;
-    opacity:.9;
+    font-size:30px;
 }
 .copyright {
     position: absolute;
     top: 50%;
     left: 50%;
+    font-size:150px;
 }

@@ -11,6 +11,7 @@ html,body{
 ul li a{
     text-decoration:none;
     color:#e0e2e1;
+    font-family: times;
 }
 
 ul{
@@ -18,7 +19,8 @@ ul{
     width:100%;
     background:#2a4532;
     line-height:3.5;
-
+    text-decoration:none;
+    font-family:times;
 }
 
 ul li{
@@ -26,9 +28,11 @@ ul li{
     display:inline;
     position:relative;
     margin-left:100px;
-    margin-right:120px;
+    margin-right:150px;
     transform:translate(40%,30%);
     font-size:22px;
+    text-decoration:none;
+    font-family: times;
 }
 
 ul li a:hover{
@@ -37,6 +41,8 @@ ul li a:hover{
     padding:2%;
     border-radius:10px;
     cursor:pointer;
+    text-decoration:none;
+    font-family:times;
 }
 
 footer{
@@ -51,10 +57,6 @@ footer{
     font-size:30px;
 }
 
-h1{
-    color:#731f24;
-    
-}
 img{
     border-radius:700px;
     position: absolute;
@@ -126,13 +128,17 @@ h2{
     top:20%;
     font-size:30px;
     color:#612424;
+    font-family:times;
+    text-decoration:none;
 }
 .container2{
     position:absolute;
     left:35%;
     top:20%;
-    font-size:23px;
+    font-size:18px;
     color:#612424;
+    text-decoration:none;
+    font-family: times
 }
 .container3{
     position:absolute;
@@ -140,6 +146,8 @@ h2{
     top:20%;
     font-size:23px;
     color:#612424;
+    font-family:times;
+    text-decoration:none;
 }
 .btn{
     position:absolute;
@@ -150,18 +158,25 @@ h2{
     background:#612424;
     padding:2%;
     border-radius:15px;
-    
+
 }
+.btn:hover{
+    cursor:pointer
+}
+
 .btn2{
     position:absolute;
-    left:11%;
-    top:70%;
+    left:6%;
+    top:68%;
     text-decoration:none;
     color:white;
     background:#612424;
     padding:2%;
     border-radius:15px;
-    
+ 
+}
+.btn2:hover{
+    cursor:pointer;
 }
 .btn3{
     position:absolute;
@@ -173,6 +188,35 @@ h2{
     padding:2%;
     border-radius:15px;
 }
+.btn3:hover{
+    cursor:pointer
+}
+.btn4{
+    position:absolute;
+    left:89%;
+    top:70%;
+    text-decoration:none;
+    color:white;
+    background:#612424;
+    padding:2%;
+    border-radius:15px;
+}
+.btn4:hover{
+    cursor:pointer
+}
+.btn5{
+    position:absolute;
+    left:89%;
+    top:70%;
+    text-decoration:none;
+    color:white;
+    background:#612424;
+    padding:2%;
+    border-radius:15px;
+}
+.btn5:hover{
+    cursor:pointer;
+}
 .copyright {
     position: absolute;
     top: 50%;
@@ -183,74 +227,4 @@ h2{
     left:.5%;
     height:8.5%;
     width:4.5%;
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Helvetica", sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-.slider-container{
-  height: 80%;
-  width: 80%;
-  position: relative;
-  overflow: hidden; 
-  text-align: center;
-}
-
-.menu {
-  position: absolute;
-  left: 0;
-  z-index: 900;
-  width: 100%;
-  bottom: 0;
-}
-
-.menu label {
-  cursor: pointer;
-  display: inline-block;
-  width: 10px;
-  height:10px;
-  background: #fff;
-  border-radius: 50px;
-  margin: 0 .2em 1em;
-  &:hover {
-    background:#0e0549   
-  }
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: .2%;
-  right:70%;
-  z-index: 10;
-  padding: 8em 1em 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  transition: left 0s .75s;
-}
-
-[id^="slide"]:checked + .slide {
-  left: 0;
-  z-index: 100;
-  transition: left .65s ease-out;
-}
-
-.slide-1 {
-  background-image: url("https://ton.twitter.com/1.1/ton/data/dm/966010257465061381/966010249483374592/7k_OTdiN.jpg:large");
-}
-.slide-2 {
-  background-image: url("https://ton.twitter.com/1.1/ton/data/dm/966009697278025732/966009688335798273/iU1K_055.jpg:large");
-}
-.slide-3 {
-  background-image: url("https://ton.twitter.com/1.1/ton/data/dm/966009429584949252/966009422743994369/R2C7XMjO.jpg:large");
 }
