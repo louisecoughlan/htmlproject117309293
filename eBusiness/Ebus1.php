@@ -6,11 +6,21 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-
+        
+        <link rel = "stylesheet" href="../mystylesheet2.css" type="text/css" />
     </head>
     
     <body>
-        
+        <div>
+            <ul>
+                <a href="../HomePage.html">
+                    <img class = "img2" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Status_iucn_LC_icon_blank.svg/2000px-Status_iucn_LC_icon_blank.svg.png">
+                </a>
+                 <li><a href = "shophomepage.html">Shop Home</a></li>
+                <li><a href = "aboutcloud.html">About Cloud</a></li>
+                <li><a href = "products.html">Products</a></li>
+            </ul>
+        </div>
             <h4>Select a Product</h4>
             
             <br/>
