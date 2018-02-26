@@ -86,7 +86,7 @@ hr{
 h2{
     font-family: helvetica;
     position:absolute;
-    top:45.5%;
+    top:45%;
     left:40.3%;
     font-size:40px;
     white-space: nowrap;
@@ -110,7 +110,7 @@ h2{
     
 }
 .div2 img{
-    animation: move 12s ease;
+    animation: move 12s ease forwards;
     position:relative;
     width:150px;
     top:250px;
@@ -230,5 +230,11 @@ h2{
 }
 .img4{
     position: absolute;
-    top:50%;
+    top:65%;
+    left:35%;
+}
+.img5{
+    position:absolute;
+    top:60%;
+    left:47%;
 }
