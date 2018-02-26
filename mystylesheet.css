@@ -7,6 +7,7 @@ html,body{
     width:100%;
     background: url("https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg")no-repeat center fixed;
     background-size:cover;
+    font-family:'Open Sans', sans-serif;
 }
 ul li a{
     text-decoration:none;
@@ -27,8 +28,8 @@ ul li{
     list-style:none;
     display:inline;
     position:relative;
-    margin-left:100px;
-    margin-right:150px;
+    margin-left:230px;
+    margin-right:120px;
     transform:translate(40%,30%);
     font-size:22px;
     text-decoration:none;
@@ -38,8 +39,7 @@ ul li{
 ul li a:hover{
     color:white;
     background:#612424;
-    padding:2%;
-    border-radius:10px;
+    padding:1.8%;
     cursor:pointer;
     text-decoration:none;
     font-family:times;
@@ -53,7 +53,7 @@ footer{
     background:#2a4532;
     color:white;
     line-height:2px;
-    opacity:.9;
+    opacity:.999;
     font-size:30px;
 }
 
@@ -227,4 +227,8 @@ h2{
     left:.5%;
     height:8.5%;
     width:4.5%;
+}
+.img4{
+    position: absolute;
+    top:50%;
 }
