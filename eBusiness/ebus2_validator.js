@@ -4,7 +4,7 @@ function validateName(){
     
     var name;
     
-    name = document.getElementById("user_name").value;
+    name = document.getElementById("username").value;
 
     if (name == ""){
         alert("Please enter a name.");
@@ -22,7 +22,7 @@ function validateEmail(){
     
     var email;
     
-    email = document.getElementById("user_email").value;
+    email = document.getElementById("useremail").value;
     
     if (email == ""){
         alert("please enter an email.")
@@ -39,7 +39,7 @@ function validatePin(){
     
 var pin;
     
-    pin = document.getElementById("user_pin").value;
+    pin = document.getElementById("userpin").value;
     
     if (pin == ""){
         alert("Please enter your PIN.");
