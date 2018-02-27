@@ -7,7 +7,7 @@ session_start()
     <head>
         <title>Receipt</title>
         
-        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
     </head>
     
     <body>
@@ -15,21 +15,21 @@ session_start()
         
         <?php  
         // Set session variables
-          $_SESSION["user_name"] = $_POST["user_name"];
-          $_SESSION["user_email"] = $_POST["user_email"];
+          $_SESSION["username"] = $_POST["username"];
+          $_SESSION["useremail"] = $_POST["useremail"];
         ?>
         
         <p class="ebus3_name">
             <?php
             // Echo session variables that were set on the previous pages
-            echo "Name: " . $_SESSION["user_name"] . ".";
+            echo "Name: " . $_SESSION["username"] . ".";
             ?>
         </p>
         
         <p class="ebus3_email">
             <?php
             // Echo session variables that were set on the previous pages
-            echo "Email: " . $_SESSION["user_email"] . ".";
+            echo "Email: " . $_SESSION["useremail"] . ".";
             ?>
         </p>
         
