@@ -6,16 +6,20 @@
 #section1{
     
     background: url("https://ton.twitter.com/1.1/ton/data/dm/967868370329788424/967868361219674113/k9GJlJbP.jpg:large") no-repeat center fixed;
-    color:black;
+    color:white;
+    font-size:30px;
 }
 
 #section2{
     background: url("https://ton.twitter.com/1.1/ton/data/dm/967868904717651973/967868895775346689/IK4r2Zcm.jpg:large") no-repeat center fixed;
-    color:black;
+    color:white;
+    font-size: 30px;
 }
 
 #section3{
     background: url("https://ton.twitter.com/1.1/ton/data/dm/967870641729933317/967870633295122432/Q2i6kPCm.jpg:large") no-repeat center fixed;
+    color:white;
+    font-size: 30px;
     
 }
 #section4{

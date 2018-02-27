@@ -4,7 +4,7 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById('salesforce').checked){
+    if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
     }
     else if (document.getElementById('cloud9').checked){
@@ -20,15 +20,19 @@ function calcSub(){
     calcDisVatTotal(argSubTotal);
 }
 
-function calcDisVatTotal(argSubTotal){
-  var subTotal = parmSubtotal
+
+function calcDisVatTotal(parmSubTotal){
+  var subTotal = parmSubTotal
   var discountAmt;
   var vatAmt;
   var totalPrice;
-  
+
   discountAmt = (parmSubTotal * 0.05);
-  vatAmt = ((parmSubtotal-discountAmt) * 0.1);
-  totalPrice = ((parmSubtotal + vatAmt) - discountAmt);
+  
+  vatAmt = ((parmSubTotal - discountAmt) * 0.1);
+  
+  totalPrice = ((parmSubTotal + vatAmt) - discountAmt);
+  
   display(subTotal, discountAmt, vatAmt, totalPrice);
 }
 
@@ -42,10 +46,12 @@ function display(parm1, parm2, parm3, parm4){
         
   enablebtnProceed();
 }
+
+
 function enablebtnProceed(){
-  $('#btnProceed').prop('disabled', false);
+    $('#btnProceed').prop('disabled', false);
 }
-function disablebtnProceed(){
-  $('#btnProceed').prop('disabled', true);
-}
+
+function disablebtnProceed() {
+    $('#btnProceed').prop('disabled', true);
 }
