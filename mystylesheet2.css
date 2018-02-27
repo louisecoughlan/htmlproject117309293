@@ -28,7 +28,7 @@ ul li{
     list-style:none;
     display:inline;
     position:relative;
-    margin-left:230px;
+    margin-left:210px;
     margin-right:120px;
     transform:translate(40%,30%);
     font-size:22px;
@@ -101,12 +101,61 @@ img{
 }
 
 
+.salesforce{
+    position: absolute;
+    top:19%;
+    left:2%;
+    height:25%;
+    width:21%;
+    
+}
 
+.cloud9{
+    position:absolute;
+    top:50%;
+    left:2%;
+    
+}
 
+.aws{
+    top:60%;
+    left:43%;
+    height:18%;
+    width:26%;
+    border-radius:0;
+}
 
+.gmail{
+    top:18%;
+    left:48%;
+    height:29%;
+    width:20%;
+}
 
+.salesforcep{
+    position:absolute;
+    top:16%;
+    left:25%;
+}
 
+.cloud9p{
+    position:absolute;
+    top:55%;
+    left:25%;
+}
 
+.googlep{
+    position:absolute;
+    top:16%;
+    left:70%;
+    
+}
+
+.awsp{
+    position:absolute;
+    top:55%;
+    left:70%;
+}
 
 
 
@@ -228,31 +277,31 @@ img{
 
 
 /* Ebusiness code page 2 */
-.ebus2_heading{
+.ebus2heading{
     position: absolute;
     top: 10%;
     left: 42%;
 }
 
-.lbl_name{
+.lblname{
     position: absolute;
     top: 20%;
     left: 43%;
 }
 
-.lbl_email{
+.lblemail{
     position: absolute;
     top: 25%;
     left: 43%;
 }
 
-.lbl_pin{
+.lblpin{
     position: absolute;
     top: 30%;
     left: 43%;
 }
 
-.btn_proceed{
+.btnproceed{
     position: absolute;
     top: 35%;
     left: 43%;
@@ -267,11 +316,11 @@ img{
     font-size: 90%;
 }
 
-.btn_proceed:hover{
+.btnproceed:hover{
     cursor: pointer;
 }
 
-.btn_validate{
+.btnvalidate{
     position: absolute;
     top: 40%;
     left: 43%;
@@ -286,6 +335,34 @@ img{
     font-size: 90%;
 }
 
-.btn_validate{
+.btnvalidate{
     cursor: pointer;
 }
+
+
+.ebus3_heading{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.ebus3_name{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.ebus3_email{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.ebus3_total{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
+
+

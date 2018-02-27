@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start()
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,27 +16,27 @@
     
     <body>
         
-        <h4 class="ebus2_heading">Please enter your payment details</h4>
+        <h4 class="ebus2heading">Please enter your payment details</h4>
         
         <form action="Ebus3.php" method="POST">
             
-            <label for="user_name" class="lbl_name">
+            <label for="username" class="lblname">
                 Name
-                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
+                <input type="name" id="username" name="username" placeholder="Enter Your Name">
             </label>
             
             <br>
             
-            <label for="user_email" class="lbl_email">
+            <label for="useremail" class="lblemail">
                 Email address
-                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
+                <input type="email" id="useremail" name="useremail" placeholder="example@gmail.com">
             </label>
             
             <br>
 
-            <label for="user_pin" class="lbl_pin">
+            <label for="userpin" class="lblpin">
                 PIN
-                <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                <input type="pin" id="userpin" name="userpin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
                 (Only numbers are allowed for the PIN)
             </label>
@@ -40,13 +44,19 @@
             <br>
             <br>
             
-            <button class="btn_proceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+            <button class="btnproceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
         </form>
         
         <br>
         
-        <button class="btn_validate" onClick="validateName()">Validate</button>
+        <button class="btnvalidate" onClick="validateName()">Validate</button>
     
+            
+                 <?php  
+        // Set session variables
+          $_SESSION["total"] = $_POST["total"];
+          
+        ?>
                 
     </body>
 </html>
