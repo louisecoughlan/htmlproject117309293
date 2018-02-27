@@ -264,24 +264,24 @@ img{
 
 /* E-business page 3 styling */
         
-.ebus3_heading{
+.ebus3heading{
     position: absolute;
     top: 20%;
     left: 40%;
 }
-.ebus3_name{
+.ebus3name{
     position: absolute;
     top: 30%;
     left: 40%;
 }
 
-.ebus3_email{
+.ebus3email{
     position: absolute;
     top: 35%;
     left: 40%;
 }
 
-.ebus3_total{
+.ebus3total{
     position: absolute;
     top: 40%;
     left: 40%;
