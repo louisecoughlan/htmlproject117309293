@@ -28,7 +28,7 @@ ul li{
     list-style:none;
     display:inline;
     position:relative;
-    margin-left:230px;
+    margin-left:250px;
     margin-right:120px;
     transform:translate(40%,30%);
     font-size:22px;
@@ -199,7 +199,7 @@ img{
 
 
 
-        /* E-business page 2 styling */
+/* E-business page 2 styling */
 .heading2{
     position: absolute;
     top: 10%;
