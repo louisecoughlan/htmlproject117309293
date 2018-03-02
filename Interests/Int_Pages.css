@@ -45,7 +45,12 @@
     left:10%;
 }
 
-
+#section7{background: url("http://www.osahub.com/img/course/pages/clouds.png") no-repeat center fixed;
+    color:white;
+    position:absolute;
+    left:10%;
+    
+}
 
 .section{
     text-align: center;

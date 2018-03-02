@@ -8,6 +8,10 @@
         <script type="text/javascript" src="cost_calc.js"></script>
 
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
+        
+        
+        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
+        
     </head>
     
     <body>

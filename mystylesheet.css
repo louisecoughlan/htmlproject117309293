@@ -28,7 +28,7 @@ ul li{
     list-style:none;
     display:inline;
     position:relative;
-    margin-left:230px;
+    margin-left:220px;
     margin-right:120px;
     transform:translate(40%,30%);
     font-size:22px;
@@ -94,8 +94,17 @@ h2{
     animation: shorten 9s ease;
     border-right: 3px inset black;
     
-    
 }
+
+
+.img7{
+    position:absolute;
+    top:20%;
+    left:10%;
+    height:45%;
+    border-radius:120px;
+}
+
 @keyframes shorten{
     0%{width:0ch}
     100%{width:16ch}
@@ -124,7 +133,7 @@ h2{
 }
 .container1{
     position:absolute;
-    left:35%;
+    left:40%;
     top:20%;
     font-size:30px;
     color:#612424;
@@ -234,13 +243,22 @@ h2{
 }
 .img4{
     position: absolute;
-    top:65%;
-    left:35%;
+    top:60%;
+    left:45%;
+    height:100px;
 }
 .img5{
     position:absolute;
     top:60%;
     left:52%;
+    height:80px;
+}
+
+.img6{
+    position:absolute;
+    top:68%;
+    left:53%;
+    height:20px;
 }
 
 

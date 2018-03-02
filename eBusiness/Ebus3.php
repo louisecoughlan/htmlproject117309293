@@ -8,6 +8,10 @@ session_start()
         <title>Receipt</title>
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
+        
+        
+        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
+        
     </head>
     
     <body>
@@ -19,21 +23,21 @@ session_start()
           $_SESSION["useremail"] = $_POST["useremail"];
         ?>
         
-        <p class="ebus3_name">
+        <p class="ebus3name">
             <?php
             // Echo session variables that were set on the previous pages
             echo "Name: " . $_SESSION["username"] . ".";
             ?>
         </p>
         
-        <p class="ebus3_email">
+        <p class="ebus3email">
             <?php
             // Echo session variables that were set on the previous pages
             echo "Email: " . $_SESSION["useremail"] . ".";
             ?>
         </p>
         
-        <p class="ebus3_total">
+        <p class="ebus3total">
             <?php
             // Echo session variables that were set on the previous pages
             echo "Total: " . $_SESSION["total"] . ".";
