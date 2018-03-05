@@ -380,14 +380,14 @@ h2{
 .water{
     opacity:1;
     position:absolute;
-    top:9%;
-    left:8%;
+    top:10%;
+    left:3%;
 }
 .feet{
     position:absolute;
     top:63%;
     left:0%;
     opacity:1;
-    height:20%;
-    width:30%;
+    height:40%;
+    width:100%;
 }
