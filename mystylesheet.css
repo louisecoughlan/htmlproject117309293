@@ -262,12 +262,6 @@ h2{
 }
 
 
-
-
-
-
-
-
 .hoverpic1 img{
     border-radius: 0;
     height:300px;
@@ -276,38 +270,33 @@ h2{
     left:5%;
 }
 
-
 .hoverpic1{
     cursor:default;
-    
 }
 
-.hoverpic1:hover{
-    opacity:.6;
-    transition: opacity 1s;
-}
 
 .swim{
     position:absolute;
-    top:43%;
-    left:10%;
-    height:200px;
-    width:300px;
+    top:30%;
+    left:5%;
+    height:300px;
+    width:400px;
     color:white;
     opacity: 0;
-    visibility:hidden;
-    
-    
+    text-align: center;
 }
-.swim :hover{
-    opacity:.9;
-    z-index:+1;
-    visibility: visible;
-    
-
+.swim2 {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    background-color:#525252;
+    border-radius: 9;
 }
 
-
+.swim:hover {
+    opacity: 0.9;
+    transition: opacity 1s;
+}
 .hoverpic2 img{
     border-radius: 0;
     height:300px;
@@ -317,14 +306,30 @@ h2{
 }
 .hoverpic2{
     cursor:default;
-    
 }
 
-.hoverpic2:hover{
-    opacity:.6;
+
+.ski{
+    position:absolute;
+    top:30%;
+    left:35%;
+    height:300px;
+    width:400px;
+    color:white;
+    opacity: 0;
+    text-align: center;
+}
+.ski:hover {
+    opacity: 0.9;
     transition: opacity 1s;
 }
-
+.ski2 {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    background-color:#525252;
+    border-radius: 9;
+}
 .hoverpic3 img{
     border-radius: 0;
     height:300px;
@@ -332,13 +337,29 @@ h2{
     top:30%;
     left:65%;
 }
-
 .hoverpic3{
     cursor:default;
-    
 }
 
-.hoverpic3:hover{
-    opacity:.6;
+.watch{
+    position:absolute;
+    top:30%;
+    left:65%;
+    height:300px;
+    width:377px;
+    color:white;
+    opacity: 0;
+    text-align: center;
+}
+.watch:hover {
+    opacity: 0.9;
     transition: opacity 1s;
 }
+.watch2 {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    background-color:#525252;
+    border-radius: 9;
+}
+
