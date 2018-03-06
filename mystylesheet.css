@@ -7,7 +7,6 @@ html,body{
     width:100%;
     background: url("https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg")no-repeat center fixed;
     background-size:cover;
-    font-family:'Open Sans', sans-serif;
 }
 ul li a{
     text-decoration:none;
@@ -152,7 +151,7 @@ h2{
 }
 .container3{
     position:absolute;
-    left:35%;
+    left:42%;
     top:20%;
     font-size:23px;
     color:#612424;
@@ -166,14 +165,17 @@ h2{
     text-decoration:none;
     color:white;
     background:#612424;
-    padding:2%;
     border-radius:15px;
-    height:75px;
+    height:40px;
     width:120px;
+    text-align: center;
+    text-align-last: center;
+    font-family: helvetica;
 
 }
 .btn:hover{
-    cursor:pointer
+    cursor:pointer;
+    color:green;
 }
 
 .btn2{
@@ -183,28 +185,18 @@ h2{
     text-decoration:none;
     color:white;
     background:#612424;
-    padding:2%;
-    border-radius:15px;
-   
+    border-radius:5px;
+    height:40px;
+    width:120px;
     text-align: center;
- 
 }
 .btn2:hover{
     cursor:pointer;
+    color:green;
+    transition-delay: opacity .7s;
+    text-decoration: none;
 }
-.btn3{
-    position:absolute;
-    left:11%;
-    top:70%;
-    text-decoration:none;
-    color:white;
-    background:#612424;
-    padding:2%;
-    border-radius:15px;
-}
-.btn3:hover{
-    cursor:pointer
-}
+
 .btn4{
     position:absolute;
     left:89%;
@@ -216,7 +208,8 @@ h2{
     border-radius:15px;
 }
 .btn4:hover{
-    cursor:pointer
+    cursor:pointer;
+    color:green;
 }
 .btn5{
     position:absolute;

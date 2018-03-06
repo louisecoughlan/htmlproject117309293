@@ -24,21 +24,21 @@ session_start()
         <form action="Ebus3.php" method="POST">
             
             <label for="username" class="lblname">
-                Name
+                Name:
                 <input type="name" id="username" name="username" placeholder="Enter Your Name">
             </label>
             
             <br>
             
             <label for="useremail" class="lblemail">
-                Email address
+                Email:
                 <input type="email" id="useremail" name="useremail" placeholder="example@gmail.com">
             </label>
             
             <br>
 
             <label for="userpin" class="lblpin">
-                PIN
+                Pin:
                 <input type="pin" id="userpin" name="userpin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
                 (Only numbers are allowed for the PIN)

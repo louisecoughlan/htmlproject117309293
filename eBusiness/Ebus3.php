@@ -15,7 +15,7 @@ session_start()
     </head>
     
     <body>
-        <h4 class="ebus3_heading">Purchase Receipt</h4>
+        <h4 class="ebus3heading">Purchase Receipt</h4>
         
         <?php  
         // Set session variables
