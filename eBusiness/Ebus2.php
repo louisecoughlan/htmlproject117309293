@@ -23,7 +23,8 @@ session_start()
         
         <form action="Ebus3.php" method="POST">
             
-           <div><label for="username" class="lblname">
+           <div class="validation">
+               <label for="username" class="lblname">
                 Name:
                 <input type="name" id="username" name="username" placeholder="Enter Your Name">
             </label>

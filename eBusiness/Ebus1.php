@@ -16,7 +16,7 @@
     
     <body>
         <header>
-            <div class="container3">
+            
                 
                 <nav>
                   
@@ -30,7 +30,7 @@
                     </ul>
                 </nav>
                 
-            </div>
+            
         </header>
         
         <div class="container2">
@@ -112,6 +112,11 @@
             
           
           <a class="btnclear" role="button" href="Ebus1.php">Clear Choice</a>
+        
+        
+        
         </div>
+        
+      
     </body>
 </html>

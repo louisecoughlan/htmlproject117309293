@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+
 html,body{
     height:70%;
     width:100%;
@@ -147,19 +148,26 @@ img{
     left: 45%;
 }
 
+.btnadd:hover{
+    cursor:pointer;
+    background-color: white;
+}
+
 .addbtnstyle{
     background-color: green;
     border: none;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     padding: 5px 5px;
     border-radius: 3px;
     font-size: 90%;
+    border: solid 2px green;
 }
 
 .addbtnstyle:hover{
     cursor: pointer;
+    background-color: white;
 }
 
 .btncal{
@@ -174,13 +182,16 @@ img{
     padding: 6px 6px;
     border-radius: 3px;
     font-size: 95%;
+    border: solid 2px blue;
 }
 .btncal:hover{
     cursor:pointer;
+    background-color: white;
 }
 
 .btnclear:hover{
     cursor: pointer;
+    background-color: white;
 }
 
 .btnclear{
@@ -189,9 +200,9 @@ img{
     left: 52%;
     background-color: red;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 4px 4px;
-    border: solid 1px red;
+    border: solid 2px red;
     border-radius: 3px;
 }
 
@@ -239,6 +250,7 @@ img{
 
 .btnproceed:hover{
     cursor: pointer;
+    background-color: white;
 }
 
 .btnvalidate{
@@ -258,6 +270,7 @@ img{
 
 .btnvalidate{
     cursor: pointer;
+    background-color: white;
 }
 
 /* E-business page 3 styling */
@@ -283,8 +296,4 @@ img{
     position: absolute;
     top: 40%;
     left: 40%;
-}
-
-.validation{
-    border-bottom-color: red;
 }
