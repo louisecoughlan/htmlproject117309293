@@ -20,7 +20,7 @@ ul{
     background:#2a4532;
     line-height:3.5;
     text-decoration:none;
-    font-family:times;
+    font-family:helvetica;
 }
 
 ul li{
@@ -32,7 +32,7 @@ ul li{
     transform:translate(40%,30%);
     font-size:22px;
     text-decoration:none;
-    font-family: times;
+    font-family: helvetica;
 }
 
 ul li a:hover{
