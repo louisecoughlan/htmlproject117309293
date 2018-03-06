@@ -42,7 +42,7 @@ session_start()
                 Pin:
                 <input type="pin" id="userpin" name="userpin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
-                (Only numbers are allowed for the PIN)
+                (Numeric Characters only for PIN)
             </label>
             
             <br>

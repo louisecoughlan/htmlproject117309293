@@ -70,7 +70,7 @@
             
             
             <label for="subtotal" class="lblsubtotal">
-              Subtotal: 
+              Subtotal:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
             
@@ -86,14 +86,14 @@
             <br>
             
             <label for="vat" class="lblvat">
-              VAT @ 10%: 
+              VAT @ 10%: &nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="vat" name="vat" value="0.00" readonly/>
             </label>
                 
             <br>
                 
             <label for="total" class="lbltotal">
-              Total: 
+              Total: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="total" name="total" value="0.00" readonly/>
               <br>
             </label>

@@ -93,59 +93,60 @@ img{
 .container2 h1{
     position: absolute;
     top: 10%;
-    left: 42%;
+    left: 32%;
+    color:Green;
 }
 
 .container2 .lblsalesforce{
     position: absolute;
     top: 20%;
-    left: 43%;
+    left: 39%;
 }
 
 .container2 .lblcloud9{
     position: absolute;
     top: 25%;
-    left: 43%;
+    left: 39%;
 }
 
 .container2 .lblaws{
     position: absolute;
     top: 30%;
-    left: 43%;
+    left: 39%;
 }
 
 .container2 .lblgmail{
     position: absolute;
     top: 35%;
-    left: 43%;
+    left: 39%;
 }
 
 .container2 .lblsubtotal{
     position: absolute;
     top: 50%;
-    left: 43%;
+    left: 30%;
 }
 .container2 .lbldiscount{
     position: absolute;
     top: 55%;
-    left: 43%;
+    left: 30%;
 }
 .container2 .lblvat{
     position: absolute;
     top: 60%;
-    left: 43%;
+    left: 30%;
 }
 
 .container2 .lbltotal{
     position: absolute;
     top: 65%;
-    left: 43%;
+    left: 30%;
 }
 
 .btnadd{
     position: absolute;
     top: 81%;
-    left: 45%;
+    left: 39%;
 }
 
 .btnadd:hover{
@@ -173,7 +174,7 @@ img{
 .btncal{
     position: absolute;
     top: 75%;
-    left: 43%;
+    left: 30%;
     background-color: blue;
     border: none;
     color: #000;
@@ -246,10 +247,9 @@ img{
     position: absolute;
     top: 35%;
     left: 43%;
-    
-    background-color: #4CAF50;
+    background-color: blue;
     border: none;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     padding: 5px 5px;
@@ -260,6 +260,8 @@ img{
 .btnproceed:hover{
     cursor: pointer;
     background-color: white;
+    border:solid 2px blue;
+    color:blue;
 }
 
 .btnvalidate{
@@ -267,9 +269,9 @@ img{
     top: 40%;
     left: 43%;
     
-    background-color: #008CBA;
+    background-color:green;
     border: none;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     padding: 5px 5px;
@@ -277,9 +279,10 @@ img{
     font-size: 90%;
 }
 
-.btnvalidate{
+.btnvalidate:hover{
     cursor: pointer;
     background-color: white;
+    border:solid 2px green;
 }
 
 /* E-business page 3 styling */
