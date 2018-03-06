@@ -6,7 +6,7 @@ session_start()
 <html>
     <head>
         <title>Enter Details</title>
-        
+        <meta charset="UTF-8">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="ebus2_validator.js"></script>
@@ -19,6 +19,25 @@ session_start()
     
     <body>
         
+        
+        <header>
+            
+                
+                <nav>
+                  
+                        <a href="../HomePage.html">
+                                <img class = "img2" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Status_iucn_LC_icon_blank.svg/2000px-Status_iucn_LC_icon_blank.svg.png" alt="homeicon">
+                        </a>
+                    <ul>
+                        <li><a href="../Cloud/shophomepage.html">Shop Home</a></li>
+                        <li><a href="../Cloud/aboutcloud.html">About Cloud</a></li>
+                        <li><a href="../eBusiness/Ebus1.php">Purchase Products</a></li>
+                    </ul>
+                </nav>
+                
+            
+        </header>
+        <div class="container5">
         <h4 class="heading2">Please enter your payment details</h4>
         
         <form action="Ebus3.php" method="POST">
@@ -39,7 +58,7 @@ session_start()
             <br>
 
             <label for="userpin" class="lblpin">
-                Pin:
+                Pin:&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="pin" id="userpin" name="userpin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
                 (Numeric Characters only for PIN)
@@ -55,11 +74,17 @@ session_start()
         
         <button class="btnvalidate" onClick="validateName()">Validate</button>
     </div> 
+    </div>
         <?php  
         // Set session variables
           $_SESSION["total"] = $_POST["total"];
           
         ?>
+                    <footer>
+                  <div class= "copyright">
+                           <p>&copy; </p> 
+                  </div>
+            </footer>
         
     </body>
 </html>

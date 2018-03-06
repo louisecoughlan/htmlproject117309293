@@ -91,7 +91,7 @@ h2{
     font-size:40px;
     white-space: nowrap;
     overflow:hidden;
-    animation: shorten 9s ease;
+    animation:12s ease;
     border-right: 3px inset black;
     
 }
@@ -104,6 +104,8 @@ h2{
     height:45%;
     border-radius:120px;
 }
+
+
 
 @keyframes shorten{
     0%{width:0ch}
@@ -119,7 +121,7 @@ h2{
     
 }
 .div2 img{
-    animation: move 12s ease forwards;
+    animation: move 10s ease forwards;
     position:relative;
     width:150px;
     top:250px;
@@ -224,6 +226,8 @@ h2{
 .btn5:hover{
     cursor:pointer;
 }
+
+
 .copyright {
     position: absolute;
     top: 50%;
@@ -285,6 +289,7 @@ h2{
     left: 0%;
     background-color:#525252;
     border-radius: 9;
+    font-family: helvetica;
 }
 
 .swim:hover {
@@ -322,6 +327,7 @@ h2{
     top: 50%;
     left: 0%;
     background-color:#525252;
+    font-family: helvetica;
   
 }
 .hoverpic3 img{
@@ -355,6 +361,7 @@ h2{
     left: 0%;
     background-color:#525252;
     border-radius: 9;
+    font-family: helvetica;
 }
 
 .snow{

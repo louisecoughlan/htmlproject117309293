@@ -86,13 +86,22 @@ footer{
      height:200px; 
 }
 
-.btn6{
-    background-color:red;
-    color:white;
-    border-radius: 4px;
+.btn{
+    position:absolute;
+    color:black;
+    background:blue;
 }
 
-.btn6:hover{
-    color:green;
-    text-decoration: none;
+.btn:hover{
+    cursor:pointer;
+    border: solid 2px blue;
+    background-color: white;
+    
 }
+
+
+
+
+
+
+

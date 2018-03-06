@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
-        
+        <meta charset="UTF-8">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="cost_calc.js"></script>
@@ -117,6 +117,11 @@
         
         </div>
         </div>
-      
+                  <footer>
+                  <div class= "copyright">
+                           <p>&copy; </p> 
+                  </div>
+            </footer>
+        
     </body>
 </html>

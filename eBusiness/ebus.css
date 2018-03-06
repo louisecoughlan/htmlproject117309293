@@ -29,7 +29,8 @@ ul li{
     list-style:none;
     display:inline;
     position:relative;
-    margin-left:220px;
+    margin-left:200px;
+    margin-right: 100px;
     transform:translate(40%,30%);
     font-size:22px;
     text-decoration:none;
@@ -218,35 +219,66 @@ img{
     margin:auto
 }
 
+
+.container5{
+    position:absolute;
+    top:15%;
+    left:29%;
+    width:580px;
+    height:500px; 
+    border:6px outset #8c1f2f;
+    background:#e9e8ed; 
+    margin:auto
+}
+
+
+
+.container6{
+    position:absolute;
+    top:25%;
+    left:27%;
+    width:580px;
+    height:300px; 
+    border:6px outset #8c1f2f;
+    background:#e9e8ed; 
+    margin:auto
+}
+
+
+
 /* E-business page 2 styling */
 .heading2{
     position: absolute;
-    top: 10%;
-    left: 42%;
+    top: 20%;
+    left: 24%;
+    font-size: larger;
+}
+
+
+.lblemail{
+    position: absolute;
+    top: 30%;
+    left: 35%;
 }
 
 .lblname{
     position: absolute;
-    top: 20%;
-    left: 43%;
+    top: 40%;
+    left: 35%;
 }
 
-.lblemail{
-    position: absolute;
-    top: 25%;
-    left: 43%;
-}
+
 
 .lblpin{
     position: absolute;
-    top: 30%;
-    left: 43%;
+    top: 50%;
+    left: 35%;
 }
 
 .btnproceed{
     position: absolute;
-    top: 35%;
-    left: 43%;
+    top: 60%;
+    left: 37%;
     background-color: blue;
     border: none;
     color: black;
@@ -266,8 +298,8 @@ img{
 
 .btnvalidate{
     position: absolute;
-    top: 40%;
-    left: 43%;
+    top: 72%;
+    left: 46%;
     
     background-color:green;
     border: none;
@@ -287,10 +319,10 @@ img{
 
 /* E-business page 3 styling */
         
-.ebus3heading{
+.ebus3head{
     position: absolute;
-    top: 20%;
-    left: 40%;
+    top: 10%;
+    left: 38%;
 }
 .ebus3name{
     position: absolute;
@@ -300,12 +332,12 @@ img{
 
 .ebus3email{
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 40%;
 }
 
 .ebus3total{
     position: absolute;
-    top: 40%;
+    top: 70%;
     left: 40%;
 }
