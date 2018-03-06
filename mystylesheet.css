@@ -11,7 +11,7 @@ html,body{
 ul li a{
     text-decoration:none;
     color:#e0e2e1;
-    font-family: times;
+    font-family: helvetica;
 }
 
 ul{
@@ -41,7 +41,7 @@ ul li a:hover{
     padding:1.8%;
     cursor:pointer;
     text-decoration:none;
-    font-family:times;
+    font-family:helvetica;
 }
 
 footer{
@@ -91,9 +91,8 @@ h2{
     font-size:40px;
     white-space: nowrap;
     overflow:hidden;
-    animation:12s ease;
+    animation:shorten 12s ease;
     border-right: 3px inset black;
-    
 }
 
 

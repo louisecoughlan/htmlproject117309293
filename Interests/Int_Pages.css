@@ -45,12 +45,6 @@
     left:10%;
 }
 
-#section7{background: url("http://www.osahub.com/img/course/pages/clouds.png") no-repeat center fixed;
-    color:white;
-    position:absolute;
-    left:10%;
-    
-}
 
 .section{
     text-align: center;
@@ -62,24 +56,7 @@ html,body{
     width:100%;
     background: url("https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg")no-repeat center fixed;
     background-size:cover;
-}
-
-footer{
-    position:absolute;
-    top:90%;
-    width:100%;
-    height:10%;
-    background:#2a4532;
-    color:white;
-    line-height:2px;
-    opacity:.9;
-    font-size:30px;
-}
-.copyright {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size:150px;
+    font-family: helvetica;
 }
 .video{
      width:340px;
@@ -90,6 +67,8 @@ footer{
     position:absolute;
     color:black;
     background:blue;
+    Top:65%;
+    left:40%;
 }
 
 .btn:hover{
