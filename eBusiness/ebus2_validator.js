@@ -7,10 +7,10 @@ function validateName(){
     name = document.getElementById("username").value;
 
     if (name == ""){
-        alert("Please enter a name.");
+        alert("Please Enter a Valid Name.");
     }
     else if (!name.match(/^[a-zA-Z]+$/)){
-        alert('Only letters are allowed in a name.');
+        alert('Letters only allowed.');
     }
     else{
         validateEmail();
@@ -25,10 +25,10 @@ function validateEmail(){
     email = document.getElementById("useremail").value;
     
     if (email == ""){
-        alert("please enter an email.")
+        alert("Please Enter a valid Email Address.")
     }
     else if (validateInputEmail(email) == false){
-        alert("Please enter a valid Email ID");
+        alert("Please enter a valid Email Address");
     }
     else{
         validatePin();
@@ -45,7 +45,7 @@ var pin;
         alert("Please enter your PIN.");
     }
     else if (pin.length < 4){
-        alert("Your PIN must be 4 digits.");
+        alert("Your PIN must be 4 digits, no other characters permitted.");
     }
     else{
         enablebtnPurchase()

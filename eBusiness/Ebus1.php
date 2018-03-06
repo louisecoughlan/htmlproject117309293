@@ -5,7 +5,7 @@
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
 
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
@@ -19,12 +19,11 @@
             <div class="container3">
                 
                 <nav>
+                  
+                        <a href="../HomePage.html">
+                                <img class = "img2" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Status_iucn_LC_icon_blank.svg/2000px-Status_iucn_LC_icon_blank.svg.png" alt="homeicon">
+                        </a>
                     <ul>
-                      
-                      
-                       <a href="../HomePage.html">
-                    <img class = "img2" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Status_iucn_LC_icon_blank.svg/2000px-Status_iucn_LC_icon_blank.svg.png">
-                </a>
                         <li><a href="../Cloud/shophomepage.html">Shop Home</a></li>
                         <li><a href="../Cloud/aboutcloud.html">About Cloud</a></li>
                         <li><a href="../eBusiness/Ebus1.php">Purchase Products</a></li>

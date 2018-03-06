@@ -284,3 +284,7 @@ img{
     top: 40%;
     left: 40%;
 }
+
+.validation{
+    border-bottom-color: red;
+}
