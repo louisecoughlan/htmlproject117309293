@@ -206,7 +206,16 @@ img{
     border-radius: 3px;
 }
 
-
+.container4{
+    position:absolute;
+    top:15%;
+    left:27%;
+    width:630px;
+    height:670px; 
+    border:6px outset #8c1f2f;
+    background:#e9e8ed; 
+    margin:auto
+}
 
 /* E-business page 2 styling */
 .heading2{
