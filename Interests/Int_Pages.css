@@ -68,7 +68,7 @@ html,body{
     color:black;
     background:blue;
     Top:65%;
-    left:40%;
+    left:47%;
 }
 
 .btn:hover{
@@ -78,9 +78,55 @@ html,body{
     
 }
 
+.btn2{
+    position:absolute;
+    color:black;
+    background:blue;
+    Top:65%;
+    left:50%;
+    border-radius: 2px;
+    text-decoration: none;
+    height:35px;
+    width:170px;
+}
+
+.btn2:hover{
+    cursor:pointer;
+    border: solid 2px blue;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+.movebtn2{
+    position: absolute;
+    top:16%;
+    left:20%;
+}
 
 
+.btn3{
+    position:absolute;
+    color:black;
+    background:blue;
+    Top:65%;
+    left:32%;
+    border-radius: 2px;
+    text-decoration: none;
+    height:35px;
+    width:170px;
+}
 
+.btn3:hover{
+    cursor:pointer;
+    border: solid 2px blue;
+    background-color: white;
+    text-decoration: none;
+    
+}
 
-
-
+.movebtn3{
+    position: absolute;
+    top:16%;
+    left:29%;
+}

@@ -138,7 +138,7 @@ h2{
     top:20%;
     font-size:30px;
     color:#612424;
-    font-family:times;
+    font-family:helvetica;
     text-decoration:none;
 }
 .container2{
@@ -148,7 +148,7 @@ h2{
     font-size:18px;
     color:#612424;
     text-decoration:none;
-    font-family: times
+    font-family: helvetica;
 }
 .container3{
     position:absolute;
@@ -156,7 +156,7 @@ h2{
     top:20%;
     font-size:23px;
     color:#612424;
-    font-family:times;
+    font-family:helvetica;
     text-decoration:none;
 }
 .btn{
@@ -182,15 +182,18 @@ h2{
 .btn2{
     position:absolute;
     left:6%;
-    top:68%;
+    top:69%;
     text-decoration:none;
     color:white;
     background:#612424;
-    border-radius:5px;
+    border-radius:1px;
     height:40px;
     width:120px;
     text-align: center;
 }
+
+
+
 .btn2:hover{
     cursor:pointer;
     color:green;
@@ -198,6 +201,13 @@ h2{
     text-decoration: none;
 }
 
+
+
+.movebtn{
+    position:absolute;
+    top:20%;
+    left:25%;
+}
 .btn4{
     position:absolute;
     left:89%;
@@ -305,8 +315,6 @@ h2{
 .hoverpic2{
     cursor:default;
 }
-
-
 .ski{
     position:absolute;
     top:30%;
@@ -390,4 +398,24 @@ h2{
     opacity:1;
     height:40%;
     width:100%;
+}
+
+
+.results, th, td {
+    border: .5px solid green;
+    border-collapse: collapse;
+    text-align:center;
+    
+}
+
+
+th, td {
+    padding: 5px;
+}
+
+
+.btnmove2{
+    position:absolute;
+    top:25%;
+    left:35%;
 }
