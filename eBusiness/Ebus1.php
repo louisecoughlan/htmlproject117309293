@@ -71,13 +71,13 @@
             
             <label for="subtotal" class="lblsubtotal">
               Subtotal:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
+              <input type="text" id="subtotal" name="subtotal" value="€0.00" readonly/>
             </label>
             
             <br>
             
             <label for="discount" class="lbldiscount">
-              Discount @ 5%: <input type="text" id="discount" name="discount" value="0.00" readonly/>
+              Discount @ 5%: <input type="text" id="discount" name="discount" value="€0.00" readonly/>
               
               <br>
               
@@ -87,14 +87,14 @@
             
             <label for="vat" class="lblvat">
               VAT @ 10%: &nbsp;&nbsp;&nbsp;&nbsp;
-              <input type="text" id="vat" name="vat" value="0.00" readonly/>
+              <input type="text" id="vat" name="vat" value="€0.00" readonly/>
             </label>
                 
             <br>
                 
             <label for="total" class="lbltotal">
               Total: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input type="text" id="total" name="total" value="0.00" readonly/>
+              <input type="text" id="total" name="total" value="€0.00" readonly/>
               <br>
             </label>
       

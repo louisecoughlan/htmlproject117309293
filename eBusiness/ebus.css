@@ -80,8 +80,6 @@ img{
 }
 
 
-
-/* E-business page 1 styling */
 .container3{
     position: absolute;
     height: 100%;
@@ -146,7 +144,7 @@ img{
 
 .btnadd{
     position: absolute;
-    top: 81%;
+    top: 84%;
     left: 39%;
 }
 
@@ -213,7 +211,7 @@ img{
     top:15%;
     left:27%;
     width:630px;
-    height:670px; 
+    height:550px; 
     border:6px outset #8c1f2f;
     background:#e9e8ed; 
     margin:auto
@@ -317,8 +315,7 @@ img{
     border:solid 2px green;
 }
 
-/* E-business page 3 styling */
-        
+
 .ebus3head{
     position: absolute;
     top: 10%;
