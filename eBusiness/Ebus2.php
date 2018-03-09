@@ -22,9 +22,8 @@ session_start()
         
         <header>
             
-                
+                <!-- nav bar -->
                 <nav>
-                  
                         <a href="../HomePage.html">
                                 <img class = "img2" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Status_iucn_LC_icon_blank.svg/2000px-Status_iucn_LC_icon_blank.svg.png" alt="homeicon">
                         </a>

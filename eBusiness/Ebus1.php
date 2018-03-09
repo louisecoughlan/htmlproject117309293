@@ -40,7 +40,7 @@
               
           <form method="POST" action="Ebus2.php">
             
-           
+           <!-- radio buttons for products -->
             <label for="salesforce" class="lblsalesforce">
               <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
               SalesForce @ $100
@@ -99,7 +99,7 @@
             </label>
       
             <br>
-            
+            <!-- buttons -->
             <div class="btnadd">   
               <button class="addbtnstyle" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </div>  
